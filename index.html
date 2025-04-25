@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My go2booking - Easy and efficient booking system for various services.">
+    <meta name="keywords" content="booking, appointments, events, venues, hotel bookings">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>My go2booking</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="media/logoB-re.png" alt="My go2booking Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="container">
+                <h1>Bookings made easy</h1>
+                <h2 id="subheading">Go2bookings makes memorable bookings easy</h2>
+                <button class="Button btn-primary btn"> Book Now </button>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="media/picb1.jpg" alt="Booking destination">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/picb2.jpg" alt="Booking destination">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="media/picb3.jpg" alt="Booking destination">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control prev">&#10094;</button>
+                <button class="carousel-control next">&#10095;</button>
+                <div class="carousel-indicators"></div>
+                <p class="description">We provide an easy and efficient way to manage your bookings for various services. Whether it's for
+                    events, appointments, or venues, we have got you covered!
+                </p>
+                <button class="Button_t btn-primary btn"> Have fun!</button>
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About us</h2>
+                <p>Our centralized booking system allows users to streamline their booking process, making it quicker
+                    and
+                    easier to secure their desired services.</p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="container">
+                <h2>Our services</h2>
+                <ul>
+                    <li>Event Bookings</li>
+                    <li>Appointment Bookings</li>
+                    <li>Venue Bookings</li>
+                    <li>Hotel Bookings</li>
+                </ul>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contact us</h2>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <button class="btn" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Contact us: <a href="mailto:sherryjayanshy@gmail.com">sherryjayanshy@gmail.com</a></p>
+            <p>&copy; 2025 My go2booking</p>
+        </div>
+    </footer>
+</body>
+
+</html>
